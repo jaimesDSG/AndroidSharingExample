@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SharingExemple</string>
+    <string name="main_activity_title">Welcome to the demo application for all sharing activities</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_activity_facebook_button">Facebook</string>
+    <string name="main_activity_twitter_button">Twitter</string>
+
+    <string name="twitter_activity_title">Twitter section</string>
+    <string name="twitter_activity_connect_button">connect</string>
+
+    <string name="facebook_activity_title">Facebook section</string>
+
+    <!-- Paramètre l'id de l'application auprès de facebook -->
+    <string name="app_id">154354714755852</string>
+    <string name="all_sharing_title">share with intent</string>
+</resources>
