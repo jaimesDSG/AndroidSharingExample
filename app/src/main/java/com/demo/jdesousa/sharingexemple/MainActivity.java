@@ -10,6 +10,7 @@ import android.widget.Button;
 
 import com.demo.jdesousa.sharingexemple.Facebook.FacebookActivity;
 import com.demo.jdesousa.sharingexemple.Twitter.TwitterActivity;
+import com.demo.jdesousa.sharingexemple.google.GoogleActivity;
 
 /**
  * Created by j.desousa on 08/07/2014.
@@ -67,7 +68,8 @@ public class MainActivity extends Activity {
         mBtnGoogle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(getBaseContext(), GoogleActivity.class);
+                startActivity(intent);
             }
         });
 
