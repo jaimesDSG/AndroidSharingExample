@@ -19,6 +19,7 @@ public class MainActivity extends Activity {
     private Button twitterButton;
     private Button facebookButton;
     private Button shareButton;
+    private Button mBtnGoogle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,6 +60,14 @@ public class MainActivity extends Activity {
 //                shareIntent.putExtra(Intent.EXTRA_STREAM,Uri.fromFile(new File(filePath)));
 //                shareIntent.setType("image/png");
                 startActivity(Intent.createChooser(shareIntent, "PARTAGER"));
+            }
+        });
+
+        mBtnGoogle = (Button)findViewById(R.id.main_activity_google_button);
+        mBtnGoogle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
             }
         });
 

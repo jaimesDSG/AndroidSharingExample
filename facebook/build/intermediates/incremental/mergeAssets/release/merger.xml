@@ -2,10 +2,10 @@
 <merger version="2" >
 
     <dataSet config="main" >
-        <source path="C:\Users\j.desousa\Documents\workspaceTestStudio\SharingExemple\facebook\src\main\assets" />
+        <source path="/Volumes/OreNoData/WatashiNoFileDesu/workspace/workspace_androidstudio/novedia/AndroidSharingExample/facebook/src/main/assets" />
     </dataSet>
     <dataSet config="release" >
-        <source path="C:\Users\j.desousa\Documents\workspaceTestStudio\SharingExemple\facebook\src\release\assets" />
+        <source path="/Volumes/OreNoData/WatashiNoFileDesu/workspace/workspace_androidstudio/novedia/AndroidSharingExample/facebook/src/release/assets" />
     </dataSet>
 
 </merger>

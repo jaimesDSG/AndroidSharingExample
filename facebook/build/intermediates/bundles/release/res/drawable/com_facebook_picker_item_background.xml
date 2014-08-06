@@ -24,4 +24,4 @@
     <item android:state_focused="true"                                                             android:drawable="@drawable/com_facebook_picker_list_focused" />
     <item                                                                                          android:drawable="@android:color/transparent" />
 </selector>
-<!-- From: file:/C:/Users/j.desousa/Documents/workspaceTestStudio/SharingExemple/facebook/res/drawable/com_facebook_picker_item_background.xml -->
+<!-- From: file:/Volumes/OreNoData/WatashiNoFileDesu/workspace/workspace_androidstudio/novedia/AndroidSharingExample/facebook/res/drawable/com_facebook_picker_item_background.xml -->
